@@ -1,15 +1,29 @@
+#content-header {
+    background-image: url('./img/img-main.jpg');
+    background-size: cover;
+    height: 600px;
+    padding: 200px 100px;
+    background-position: 0px -200px;
+    color:#fff
+}
+.logo{
+    position: absolute;
+    z-index: 1;
+}
+
 .container-fluide.teste {
     position: relative;
     overflow: hidden;
 }
 
-.overlay-paragraph {
+/* .overlay-paragraph {
     position: absolute;
     top: 50%;
     left: 30%;
     transform: translate(-50%, -50%);
-    color: white; /* Ajuste a cor do texto conforme necessário */
-}
+    color: white;
+} */
+
 span {
     color: gold;
 }
